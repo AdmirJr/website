@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: ocean
+  theme_night: ocean
   font: minimal
   font_size: L
 
@@ -33,7 +33,7 @@ marketing:
 
 header:
   navbar:
-    enable: true
+    enable: false
     align: l
     show_logo: true
     show_language: false
