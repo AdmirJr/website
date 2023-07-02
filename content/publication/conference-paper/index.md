@@ -8,10 +8,8 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   Vestibulum sit amet erat at nulla eleifend gravida.
 author_notes:
 - Equal contribution
-- Equal contribution
 authors:
 - admin
-- Robert Ford
 date: "2013-07-01T00:00:00Z"
 doi: ""
 featured: true

@@ -32,27 +32,39 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
-      company_logo: org-gc
+    - company: Frexco
+      company_logo: 
       company_url: ""
-      date_end: ""
-      date_start: "2021-01-01"
+      date_end: "2023-03-01"
+      date_start: "2022-11-01"
       description: |2-
           Responsibilities include:
 
           * Analysing
           * Modelling
           * Deploying
-      location: California
-      title: CEO
-    - company: University X
-      company_logo: org-x
+      location: São Paulo
+      title: Data Science Intern
+    - company: Freelance
+      company_logo: 
       company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+      date_end: ""
+      date_start: "2021-05-01"
+      description: |2-
+          Responsibilities include:
+
+          * Data wrangling
+          * Statistical consulting
+          * Statistical review
+      location: 
+      title: Statistical Analysis
+    - company: Federal University of Latin-american Integration - UNILA
+      company_logo:
+      company_url: ""
+      date_end: ""
+      date_start: "2023-03-01"
+      description: Master's student, researcher, and CAPES scholarship holder in the postgraduate program at the Federal University of Latin-american Integration.
+      title: M.Sc. grant recipient
     title: Experience
   design:
     columns: "2"
@@ -61,90 +73,98 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - certificate_url: https://www.coursera.org
+    - certificate_url: https://cursos.alura.com.br/degree/certificate/c3133e8e-10c8-4c64-b974-f35ce9bb2644
       date_end: ""
-      date_start: "2021-01-25"
+      date_start: "2023-05-25"
       description: ""
-      organization: Coursera
-      organization_url: https://www.coursera.org
-      title: Neural Networks and Deep Learning
+      organization: Alura
+      organization_url: https://www.alura.com.br/
+      title: Deep Learning with PyTorch
       url: ""
-    - certificate_url: https://www.edx.org
+    - certificate_url: https://cursos.alura.com.br/degree/certificate/cc556867-1848-4f0b-baf9-e83009400bd0
       date_end: ""
-      date_start: "2021-01-01"
-      description: Formulated informed blockchain models, hypotheses, and use cases.
-      organization: edX
-      organization_url: https://www.edx.org
-      title: Blockchain Fundamentals
-      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    - certificate_url: https://www.datacamp.com
-      date_end: "2020-12-21"
-      date_start: "2020-07-01"
+      date_start: "2022-06-01"
+      description: 
+      organization: Alura
+      organization_url: https://www.alura.com.br/
+      title: Statistics with R
+      url: 
+    - certificate_url: https://cursos.alura.com.br/certificate/7480fedc-b37f-4045-8788-2f7ae8d9cbea
+      date_end: ""
+      date_start: "2022-07-01"
       description: ""
-      organization: DataCamp
-      organization_url: https://www.datacamp.com
-      title: Object-Oriented Programming in R
+      organization: Alura
+      organization_url: https://www.alura.com.br/
+      title: PostgreSQL
+      url: ""
+    - certificate_url: https://www.udemy.com/certificate/UC-bd95fb88-c7da-4936-b4e1-08635c3fae6e/
+      date_end: ""
+      date_start: "2022-10-01"
+      description: ""
+      organization: Udemy
+      organization_url: https://www.udemy.com/
+      title: QGIS
       url: ""
     subtitle: null
     title: Accomplish&shy;ments
   design:
     columns: "2"
     
-- block: collection
-  content:
-    count: 5
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      folders:
-      - post
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    subtitle: ""
-    text: ""
-    title: Recent Posts
-  design:
-    columns: "2"
-    view: compact
-  id: posts
+# - block: collection
+#   content:
+#     count: 5
+#     filters:
+#       author: ""
+#       category: ""
+#       exclude_featured: false
+#       exclude_future: false
+#       exclude_past: false
+#       folders:
+#       - post
+#       publication_type: ""
+#       tag: ""
+#     offset: 0
+#     order: desc
+#     subtitle: ""
+#     text: ""
+#     title: Recent Posts
+#   design:
+#     columns: "2"
+#     view: compact
+#   id: posts
     
-- block: collection
-  content:
-    filters:
-      featured_only: true
-      folders:
-      - publication
-    title: Featured Publications
-  design:
-    columns: "2"
-    view: card
-  id: featured
-  
-- block: collection
-  content:
-    filters:
-      exclude_featured: true
-      folders:
-      - publication
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
-    title: Recent Publications
-  design:
-    columns: "2"
-    view: citation
+# - block: collection
+#   content:
+#     filters:
+#       featured_only: true
+#       folders:
+#       - publication
+#     title: Featured Publications
+#   design:
+#     columns: "2"
+#     view: card
+#   id: featured
 
-- block: tag_cloud
-  content:
-    title: Popular Topics
-  design:
-    columns: "2"
+# - block: collection
+#   content:
+#     filters:
+#       exclude_featured: true
+#       folders:
+#       - publication
+#     text: |-
+#       {{% callout note %}}
+#       Quickly discover relevant content by [filtering publications](./publication/).
+#       {{% /callout %}}
+#     title: Recent Publications
+#   design:
+#     columns: "2"
+#     view: citation
+
+# - block: tag_cloud
+#   content:
+#     title: Popular Topics
+#   design:
+#     columns: "2"
     
 - block: contact
   content:
