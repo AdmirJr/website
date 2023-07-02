@@ -39,5 +39,5 @@ superuser: true
 title: Admir Cesar de Oliveira Junior
 ---
 
-Hi! I'm a biologist interested in all things about modelling the ecosystems, from the math to philosophy, and my research is about the use of deep learning in the ecological modelling. I'm also interested in history, literature, poetry, music, movies, animes and games. 
+I'm a biologist interested in all things about modelling the ecosystems, from the math to philosophy, and my research is about the use of deep learning in the ecological modelling. I'm also interested in history, literature, poetry, music, movies, animes and games. 
 {style="text-align: justify;"}
