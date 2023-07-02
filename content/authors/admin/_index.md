@@ -13,13 +13,13 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2008
 email: ""
-first_name: Alice
+first_name: Admir
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Wu
+- Ecology
+- Modelling
+- Art
+last_name: Junior
 organizations:
 - name: Stanford University
   url: https://www.stanford.edu/
